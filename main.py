@@ -9,4 +9,4 @@ app = FastAPI()
 async def connect():
     await init_db()
 
-app.include_router(test_router, prefix='/tests')
+app.include_router(test_router, prefix='/test')
